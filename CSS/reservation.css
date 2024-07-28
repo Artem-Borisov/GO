@@ -1,0 +1,14 @@
+.reservation__block h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-bottom:  60px;
+}
+
+.button {
+    background-color: #ffffff;
+    color: black;
+}

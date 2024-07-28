@@ -1,0 +1,78 @@
+
+
+.our-halls__block h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.our-halls__list-halls {
+    padding-left: 0;
+    width: 1180px;
+    margin-bottom: 0;
+}
+
+.our-halls__list-halls li {
+    font-family: var(--font-family);
+    width: 577px;
+    height: 349px;
+    padding: 0;
+    list-style-type: none;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.our-halls__list-halls li:nth-child(even) {
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+.our-halls__list-halls a {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 114%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    padding-top: 135px;
+}
+
+.our-halls__vibes {
+    background-image: url(../graphics/80s-vibes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+
+.our-halls__starwars {
+    background-image: url(../graphics/star-wars.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+
+.our-halls__wildwest {
+    background-image: url(../graphics/wild-west.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+
+.our-halls__neon {
+    background-image: url(../graphics/neon-style.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+}

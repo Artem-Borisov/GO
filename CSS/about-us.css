@@ -1,0 +1,108 @@
+.about-us__text p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.about-us__text p:nth-last-child(1) {
+    margin-bottom: 0;
+}
+
+.about-us__text {
+    display: inline-block;
+    width: 500px;
+    min-height: 222px;
+}
+.about-us__block h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.about-us__image {
+    float: left;
+    width: 600px;
+    height: 596px;
+    margin-right: 80px;
+}
+.about-us__quote {
+    width: 500px;
+    height: 222px;
+    display: inline-block;
+    position: relative;
+}
+
+.about-us__quote-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 114%;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    margin-left: 31px;
+}
+
+.about-us__quote-autor {
+    display: inline-block;
+    width: 389px;
+    height: 84px;
+    text-transform: none;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #fff;
+    position: relative;
+    margin: 0;
+    margin-left: 221px;
+}
+
+.about-us__quote-autor cite {
+    font-style: normal;
+}
+
+.about-us__quote-autor:before {
+    background-image: url(../graphics/boss-photo.svg);
+    content: "";
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    position: absolute ;
+    left: -107px;
+}
+
+.about-us__quote-text:before {
+    content: "";
+    display: block;
+    background-image: url(../graphics/forging.svg);
+    background-size: contain;
+    width: 20px;
+    height: 25px;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: -33px;
+}
+
+.about-us__quote-text:after {
+    content: "";
+    display: block;
+    background-image: url(../graphics/forging.svg);
+    background-size: contain;
+    width: 20px;
+    height: 25px;
+    background-repeat: no-repeat;
+    position: absolute;
+    transform: scale(-1,-1);
+    right: 72px;
+    bottom: 24px;
+}
