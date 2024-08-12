@@ -70,7 +70,7 @@
 }
 
 .about-us__quote-autor:before {
-    background-image: url(../graphics/boss-photo.svg);
+    background-image: url(/graphics/boss-photo.svg);
     content: "";
     display: block;
     background-size: contain;
@@ -84,7 +84,7 @@
 .about-us__quote-text:before {
     content: "";
     display: block;
-    background-image: url(../graphics/forging.svg);
+    background-image: url(/graphics/forging.svg);
     background-size: contain;
     width: 20px;
     height: 25px;
@@ -96,7 +96,7 @@
 .about-us__quote-text:after {
     content: "";
     display: block;
-    background-image: url(../graphics/forging.svg);
+    background-image: url(/graphics/forging.svg);
     background-size: contain;
     width: 20px;
     height: 25px;

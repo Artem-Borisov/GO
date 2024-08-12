@@ -1,0 +1,40 @@
+.topheader-block {
+    display: flex;
+    gap: 95px;
+    align-content: center;
+}
+
+.topheader__logo {
+}
+
+.topheader__menu {
+    align-content: center;
+}
+
+.menu__list {
+    display: flex;
+    gap: 40px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 227%;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.menu__list-item {
+
+}
+
+.topheader__call-button {
+    width: 280px;
+    height: 55px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 136%;
+    text-transform: uppercase;
+    color: #fff;
+    border: 3px solid #cd06ff;
+    border-radius: 10px;
+}
