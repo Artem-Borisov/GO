@@ -4,14 +4,14 @@
     background-repeat: no-repeat;*/
     width: 1180px;
     height: 823px;
-    padding-left: 130px;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .banner__wrapper::after {
     background-image: url(../graphics/banner-image.svg);
     content: "";
-    display: block;
     background-size: contain;
     background-repeat: no-repeat;
     width: 675px;
@@ -27,10 +27,9 @@
     letter-spacing: -0.1em;
     text-align: left;
     color: #fff;
+    min-width: 883px;
+    height: 150px;
     margin: 0;
-    display: inline-block;
-    line-height: 100%;
-    margin-left: -130px;
 }
 
 .banner__slogan {
@@ -39,4 +38,86 @@
     font-size: 28px;
     line-height: 179%;
     color: #fff;
+    padding-left: 130px;
+    padding-top: 10px;
+}
+
+.banner__info {
+    display: flex;
+    gap: 50px;
+    padding-top: 50px;
+    margin-bottom: 147px;
+}
+
+.banner__item1 {
+    display: block;
+    width: 193px;
+    height: 209px;
+    align-self: end;
+}
+
+.banner__item1_first {
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 100px;
+    color: #cd06ff;
+    text-align: center; 
+    padding-top: 6px;
+}
+
+.banner__item1_second {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.banner__item2 {
+    display: block;
+    width: 166px;
+    height: 174px;
+    align-self: end;
+}
+
+.banner__item2_first {
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 75px;
+    font-variant: all-small-caps;
+    color: #cd06ff;
+    text-align: center;
+}
+
+.banner__item2_second {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}   
+
+.banner__button {
+    width: 374px;
+    height: 80px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 115%;
+    text-transform: uppercase;
+    color: #fff;
+    background: #6c0287;
+    border-radius: 10px;
+}
+
+.banner__slider {
+    display: block;
+    content: "";
+    background-image: url(/graphics/down.svg);
+    width: 97px;
+    height: 97px;
+    align-self: center;
+    z-index: 5;
+    position: relative;
+    bottom: 45px;
 }
