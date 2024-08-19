@@ -1,3 +1,7 @@
+.reservation__block {
+    background: #440f51;
+}
+
 .reservation__block h3 {
     font-weight: 700;
     font-size: 40px;
@@ -6,9 +10,91 @@
     text-align: center;
     color: #fff;
     margin-bottom:  60px;
+    padding-top: 80px;
 }
 
 .button {
     background-color: #ffffff;
     color: black;
 }
+
+.reservation{}
+
+.reservation__block{}
+
+.reservation__block__header {}
+
+.reservation__form {}
+
+.reservation__halls{}
+
+.halls__header{}
+
+.halls__item{}
+
+.reservation__entertainment{}
+
+.reservation__entertainment__header{}
+
+.reservation__play-station{}
+
+.play-station__header {}
+
+.play-station__item{}
+
+.reservation__table-games{}
+
+.table-games__header{}
+
+.table-games__item{}
+
+.reservation__additionally{}
+
+.additionally__header{}
+
+.additionally__item{}
+
+.reservation__date-time{}
+
+.date-time__header{}
+
+.date-time__item{}
+
+.date-time__item_date{}
+
+.date-time__item_time{}
+
+.date-time__item_count{}
+
+.date-time__item_name{}
+
+.date-time__item_soname{}
+
+.date-time__item_phone{}
+
+.date-time__item_emale{}
+
+.reservation__button{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
