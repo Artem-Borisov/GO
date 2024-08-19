@@ -1,0 +1,62 @@
+.our-entertainment__block {
+
+}
+
+.our-entertainment__header {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    width: 980px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.our-entertainment__list {
+    display: flex;
+    gap: 40px 20px;
+    flex-wrap: wrap;
+}
+
+.our-entertainment__item {
+    width: 380px;
+    height: 228px;
+}
+
+.our-entertainment__text {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    color: #fff;
+    padding-top: 166px;
+    padding-left: 40px;
+    width: 310px;
+}
+
+.our-entertainment__item1 {
+    background-image: url(/img/Rectangle\ 29.jpg);
+}
+
+.our-entertainment__item2 {
+    background-image: url(/img/Rectangle\ 30.jpg);
+}   
+
+.our-entertainment__item3 {
+    background-image: url(/img/Rectangle\ 31.jpg);
+}
+
+.our-entertainment__item4 {
+    background-image: url(/img/Rectangle\ 32.jpg);
+}
+
+.our-entertainment__item5 {
+    background-image: url(/img/Rectangle\ 33.jpg);
+}
+
+.our-entertainment__item6 {
+    background-image: url(/img/Rectangle\ 34.jpg);
+}
