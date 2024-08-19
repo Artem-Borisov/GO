@@ -103,11 +103,13 @@
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 26px;
-    line-height: 115%;
+    line-height: 300%;
     text-transform: uppercase;
     color: #fff;
     background: #6c0287;
     border-radius: 10px;
+    text-align: center;
+    ;
 }
 
 .banner__slider {
