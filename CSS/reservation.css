@@ -33,16 +33,13 @@
 }
 
 .reservation__halls{
-    display: flex;
-    justify-content: space-between;
-    border: none;
     width: 1180px;
-    height: 500px;
-    align-items: flex-end;
-
+    height: 123px;
+    margin-bottom: 60px;
 }
 
 .halls__header{
+    display: block;
     text-align: center;
     font-family: var(--font-family);
     font-weight: 700;
@@ -50,11 +47,19 @@
     line-height: 117%;
     text-align: center;
     color: #fff;
+    margin-bottom: 40px;
 }
 
 .halls__item{
-    appearance: none;
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
     
+}
+
+.halls__select {
+    display: flex;
+    justify-content: space-between;
 }
 
 .halls__item-label {
@@ -73,28 +78,93 @@
     
 }
 
-.reservation__entertainment{}
+.reservation__entertainment{
+    display: flex;
+    border: none;
+    justify-content: space-around;
+}
 
-.reservation__entertainment__header{}
+.reservation__entertainment__header{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 117%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+}
 
-.reservation__play-station{}
+.reservation__play-station{
+    border: none;
+    width: 280px;
+    
+}
 
-.play-station__header {}
+.play-station__header {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 117%;
+    color: #fff;
+}
 
-.play-station__item{}
+.play-station__item{
+    
+}
 
-.reservation__table-games{}
 
-.table-games__header{}
+.play-station__label {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 22px;
+    color: #fff;
+}
 
-.table-games__item{}
+.reservation__table-games{
+    border: none;
+    width: 300px;
+}
 
-.reservation__additionally{}
+.table-games__header{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 117%;
+    color: #fff;
+}
 
-.additionally__header{}
+.table-games__item{
+    
+}
+
+.table-games__label {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 22px;
+    color: #fff;
+}
+.reservation__additionally{
+    border: none;
+    width: 300px;
+}
+
+.additionally__header{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 117%;
+    color: #fff;
+}
 
 .additionally__item{}
 
+.additionally__label {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 117%;
+    color: #fff;
+}
 .reservation__date-time{}
 
 .date-time__header{}
