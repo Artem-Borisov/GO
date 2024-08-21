@@ -1,7 +1,10 @@
 .reservation__block {
-    background: #440f51;
+    
 }
 
+.container_reservation {
+    background: #440f51;
+}
 .reservation__block h3 {
     font-weight: 700;
     font-size: 40px;
@@ -24,13 +27,51 @@
 
 .reservation__block__header {}
 
-.reservation__form {}
+.reservation__form {
+    display: flex;
+    flex-direction: column;
+}
 
-.reservation__halls{}
+.reservation__halls{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    width: 1180px;
+    height: 500px;
+    align-items: flex-end;
 
-.halls__header{}
+}
 
-.halls__item{}
+.halls__header{
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 117%;
+    text-align: center;
+    color: #fff;
+}
+
+.halls__item{
+    appearance: none;
+    
+}
+
+.halls__item-label {
+    border-radius: 8px;
+    width: 250px;
+    height: 55px;
+    background: #fff;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+    
+}
 
 .reservation__entertainment{}
 

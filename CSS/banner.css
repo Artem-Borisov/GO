@@ -10,7 +10,7 @@
 }
 
 .banner__wrapper::after {
-    background-image: url(/graphics/banner-image.svg);
+    background-image: url(../graphics/banner-image.svg);
     content: "";
     background-size: contain;
     background-repeat: no-repeat;
@@ -115,7 +115,7 @@
 .banner__slider {
     display: block;
     content: "";
-    background-image: url(/graphics/down.svg);
+    background-image: url(../graphics/down.svg);
     width: 97px;
     height: 97px;
     align-self: center;

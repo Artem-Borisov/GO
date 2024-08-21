@@ -111,16 +111,20 @@
         </section>
         
         <section class="section  reservation">
-            <div class="container">
+            <div class="container container_reservation">
                 <div class="reservation__block" id="three">
                     <h3 class="reservation__block__header">Забронировать зал просто</h3>
                     <form class="reservation__form" action="https://jsonplaceholder.typicode.com/posts" method="post">
                         <fieldset class="reservation__halls">
                             <legend class="halls__header">Выбери зал</legend>
-                            <input class="halls__item" type="radio" name="hall" value="80s vibes">80s vibes
-                            <input class="halls__item" type="radio" name="hall" value="Star wars">Star wars
-                            <input class="halls__item" type="radio" name="hall" value="Wild west">Wild west
-                            <input class="halls__item" type="radio" name="hall" value="Neon style">Neon style
+                            <input class="halls__item" type="radio" name="hall" value="80s vibes" id="radio1">
+                            <label for="radio1" class="halls__item-label">80s vibes</label>
+                            <input class="halls__item" type="radio" name="hall" value="Star wars" id="radio2">
+                            <label for="radio2" class="halls__item-label"> Star wars</label>
+                            <input class="halls__item" type="radio" name="hall" value="Wild west" id="radio3">
+                            <label for="radio3" class="halls__item-label"> Wild west</label>
+                            <input class="halls__item" type="radio" name="hall" value="Neon style" id="radio4">
+                            <label for="radio4" class="halls__item-label"> Neon style</label>
                         </fieldset>
     
                         <fieldset class="reservation__entertainment">

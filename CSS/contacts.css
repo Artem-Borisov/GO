@@ -35,7 +35,7 @@
 }
 
 .contacts__adress:before {
-    background-image: url(/graphics/location.svg);
+    background-image: url(../graphics/location.svg);
     content: "";
     display: block;
     width: 35px;
@@ -46,7 +46,7 @@
 }
 
 .contacts__tel:before {
-    background-image: url(/graphics/phone-call.svg);
+    background-image: url(../graphics/phone-call.svg);
     content: "";
     display: block;
     width: 35px;
@@ -56,7 +56,7 @@
 }
 
 .contacts__mail:before {
-    background-image: url(/graphics/mailto.svg);
+    background-image: url(../graphics/mailto.svg);
     content: "";
     display: block;
     width: 35px;
@@ -75,7 +75,7 @@
     padding-top: 45px;
 }
 .contacts__vk {
-    background-image: url(/graphics/vk.svg);
+    background-image: url(../graphics/vk.svg);
     background-position: center;
     background-repeat: no-repeat;
     width: 50px;
@@ -86,7 +86,7 @@
 }
 
 .contacts__tg {
-    background-image: url(/graphics/telegram.svg);
+    background-image: url(../graphics/telegram.svg);
     background-position: center;
     background-repeat: no-repeat;
     width: 50px;
@@ -97,7 +97,7 @@
 }
 
 .contacts__pint {
-    background-image: url(/graphics/pinterest.svg);
+    background-image: url(../graphics/pinterest.svg);
     background-position: center;
     background-repeat: no-repeat;
     width: 50px;
@@ -108,7 +108,7 @@
 }
 
 .contacts__stu {
-    background-image: url(/graphics/stumbleupon.svg);
+    background-image: url(../graphics/stumbleupon.svg);
     background-position: center;
     background-repeat: no-repeat;
     width: 50px;
