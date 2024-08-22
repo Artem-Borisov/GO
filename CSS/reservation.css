@@ -106,10 +106,11 @@
     font-size: 24px;
     line-height: 117%;
     color: #fff;
+    margin-bottom: 20px;
 }
 
 .play-station__item{
-    
+    margin-bottom: 10px;
 }
 
 
@@ -118,6 +119,7 @@
     font-weight: 400;
     font-size: 22px;
     color: #fff;
+    
 }
 
 .reservation__table-games{
@@ -131,10 +133,11 @@
     font-size: 24px;
     line-height: 117%;
     color: #fff;
+    margin-bottom: 20px;
 }
 
 .table-games__item{
-    
+    margin-bottom: 10px;
 }
 
 .table-games__label {
@@ -154,9 +157,12 @@
     font-size: 24px;
     line-height: 117%;
     color: #fff;
+    margin-bottom: 20px;
 }
 
-.additionally__item{}
+.additionally__item{
+    margin-bottom: 10px;
+}
 
 .additionally__label {
     font-family: var(--font-family);
@@ -165,25 +171,81 @@
     line-height: 117%;
     color: #fff;
 }
-.reservation__date-time{}
+.reservation__date-time{
+    border: none;
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+}
 
-.date-time__header{}
+.date-time__header{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 117%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
 
 .date-time__item{}
 
-.date-time__item_date{}
+.date-time__first-block {
+    border: none;
+    width: 300px;
+}
 
-.date-time__item_time{}
+.date-time__second-block {
+    border: none;
+    width: 300px;
+}
 
-.date-time__item_count{}
+.date-time__third-block {
+    border: none;
+    width: 300px;
+}
 
-.date-time__item_name{}
+.date-time__item_date{
+    width: 134px;
+    height: 52px;
+    margin-bottom: 36px;
+}
 
-.date-time__item_soname{}
+.date-time__date-label{
+}
 
-.date-time__item_phone{}
+.date-time__item_time{
+    width: 134px;
+    height: 52px;
+    margin-bottom: 36px;
+}
 
-.date-time__item_emale{}
+.date-time__time-label{}
+
+.date-time__item_count{
+    width: 300px;
+    height: 52px;
+}
+
+.date-time__item_name{
+    width: 300px;
+    height: 52px;
+}
+
+.date-time__item_soname{
+    width: 300px;
+    height: 52px;
+}
+
+.date-time__item_phone{
+    width: 300px;
+    height: 52px;
+}
+
+.date-time__item_emale{
+    width: 300px;
+    height: 52px;
+}
 
 .reservation__button{}
 
