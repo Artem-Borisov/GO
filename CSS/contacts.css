@@ -3,7 +3,17 @@
     padding-left: 60px;
 }
 
-.contacts__block h3 {
+.contacts {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    color: #fff;
+    /* padding-bottom: 238px; */
+    background: linear-gradient(180deg, #1b1a1b 0%, #370a37 100%);
+}
+
+.contacts__header {
     font-weight: 700;
     font-size: 40px;
     line-height: 125%;
@@ -13,15 +23,10 @@
     margin-bottom: 60px;
 }
 
-
-
-.contacts {
-    font-family: var(--font-family);
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 150%;
-    color: #fff;
-    padding-bottom: 132px;
+.contacts__area {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .contacts a {

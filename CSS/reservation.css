@@ -82,6 +82,7 @@
     display: flex;
     border: none;
     justify-content: space-around;
+    margin-bottom: 40px;
 }
 
 .reservation__entertainment__header{
@@ -185,10 +186,12 @@
     line-height: 117%;
     text-align: center;
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
-.date-time__item{}
+.date-time__item{
+    margin-bottom: 20px;
+}
 
 .date-time__first-block {
     border: none;
@@ -208,7 +211,9 @@
 .date-time__item_date{
     width: 134px;
     height: 52px;
-    margin-bottom: 36px;
+    margin-bottom: 20px;
+    margin-right: 26px;
+    margin-top: 18px;
 }
 
 .date-time__date-label{
@@ -217,7 +222,7 @@
 .date-time__item_time{
     width: 134px;
     height: 52px;
-    margin-bottom: 36px;
+    
 }
 
 .date-time__time-label{}
@@ -247,7 +252,21 @@
     height: 52px;
 }
 
-.reservation__button{}
+.reservation__button{
+    width: 300px;
+    height: 60px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #6c0287;
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 80px;
+    align-self: flex-end;
+    margin-right: 38px;
+}
 
 
 

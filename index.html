@@ -54,7 +54,7 @@
                             <p class="banner__item2_second">Новейшая аппарутура</p>
                         </div>
                     </div>
-                    <a class="banner__button">забронировать</a>
+                    <a class="banner__button" href="#three">забронировать</a>
                     <a href="#zero" class="banner__slider"></a>
                 </div>
             </div>
@@ -148,11 +148,11 @@
                                 <input class="table-games__item" type="checkbox" name="Table game" value="Jenga" id="checkbox1">
                                 <label for="checkbox1" class="table-games__label"> Jenga </label><br>
                                 <input class="table-games__item" type="checkbox" name="Table game" value="Monopoly" id="checkbox2">
-                                <label for="checkbox2" class="table-games__label"> Jenga </label> Monopoly <br>
+                                <label for="checkbox2" class="table-games__label"> Monopoly  </label> <br>
                                 <input class="table-games__item" type="checkbox" name="Table game" value="Manchkin" id="checkbox3">
-                                <label for="checkbox3" class="table-games__label"> Jenga </label> Манчкин<br>
+                                <label for="checkbox3" class="table-games__label"> Манчкин</label> <br>
                                 <input class="table-games__item" type="checkbox" name="Table game" value="Alias" id="checkbox4">
-                                <label for="checkbox4" class="table-games__label"> Jenga </label> Alias
+                                <label for="checkbox4" class="table-games__label"> Alias </label> 
                             </fieldset>
     
                             <fieldset class="reservation__additionally">
@@ -167,9 +167,9 @@
                         <fieldset class="reservation__date-time">
                             <legend class="date-time__header">Выберите дату и время</legend>
                             <fieldset class="date-time__first-block">
-                                <label class="date-time__date-label" for="date">Дата </label>
+                                <label class="date-time__date-label" for="date"> </label>
                                 <input class="date-time__item date-time__item_date" type="date" name="date" value="date" id="date" required>
-                                Время <input class="date-time__item date-time__item_time" type="time" name="time" value="time" required>
+                                <input class="date-time__item date-time__item_time" type="time" name="time" value="time" required>
                                 Количество человек 
                                 <select class="date-time__item date-time__item_count" name="count" required >
                                     <option value="1">1</option>
@@ -193,7 +193,7 @@
                             <fieldset class="date-time__third-block">
                                 Телефон <input class="date-time__item date-time__item_phone" type="tel" name="phone" title="+7-___-___-__-__" placeholder="+7-___-___-__-__"
                                 pattern="\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$" required>
-                                E-mail* <input class="date-time__item date-time__item_emale" type="email" name="email">
+                                E-mail <input class="date-time__item date-time__item_emale" type="email" name="email">
                             </fieldset>
                         </fieldset>
                         <button type="submit" class="reservation__button">Забронировать</button>
@@ -302,26 +302,36 @@
         <section class="section contacts">
             <div class="container">
                 <div class="contacts__block" id="five">
-                <h3>Контакты</h3>
-                    <p class="contacts__adress">г. Москва <br> ул. Аквамарина, 16</p>
-                    <a href="tel:89509302893" class="contacts__tel">8 (950) 930 - 28 - 93</a>
-                    <br>
-                    <a href="mailto:GameOver@gmail.com" class="contacts__mail">GameOver@gmail.com</a>
-                    <ul class="contacts__list">
-                        <li>
-                            <a href="https://vk.com" target="_blank" class="contacts__vk"></a>
-                        </li>
-                        <li>
-                            <a href="https://web.telegram.org/a/" target="_blank" class="contacts__tg"></a>
-                        </li>
-                        <li>
-                            <a href="https://ru.pinterest.com/" target="_blank" class="contacts__pint"></a>
-                        </li>
-                        <li>
-                            <a href="https://www.stumbleupon.com/" target="_blank" class="contacts__stu"></a>
-                        </li>
-                    </ul>
+                <h3 class="contacts__header">Контакты</h3>
+                    <div class="contacts__area">
+                        <div class="contacts__item1">
+                            <p class="contacts__adress">г. Москва <br> ул. Аквамарина, 16</p>
+                            <a href="tel:89509302893" class="contacts__tel">8 (950) 930 - 28 - 93</a>
+                            <br>
+                            <a href="mailto:GameOver@gmail.com" class="contacts__mail">GameOver@gmail.com</a>
+                            <ul class="contacts__list">
+                                <li>
+                                    <a href="https://vk.com" target="_blank" class="contacts__vk"></a>
+                                </li>
+                                <li>
+                                    <a href="https://web.telegram.org/a/" target="_blank" class="contacts__tg"></a>
+                                </li>
+                                <li>
+                                    <a href="https://ru.pinterest.com/" target="_blank" class="contacts__pint"></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.stumbleupon.com/" target="_blank" class="contacts__stu"></a>
+                                </li>
+                            </ul>
+                        </div>
+    
+                        <div class="contacts__item2">
+                            <img class="contacts__map" src="/img/map.jpg" alt="карта">
+                        </div> 
+                    </div>
                 </div>
+                <p class="contacts__footer1">sdasdas</p>
+                <p class="contacts__footer2">asdasd</p>
             </div>
         </section>
     </main>
