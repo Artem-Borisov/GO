@@ -1,0 +1,31 @@
+.footer {
+    background-color: #370a37;
+    padding-bottom: 30px;
+}
+
+.footer__info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+    color: #fff;
+}
+
+.footer__mail {
+    display: flex;
+    justify-content: end;
+}
+.contacts__footer1 {
+
+}
+
+.contacts__footer2 {
+
+}
+
+.contacts__footer3 {
+    
+}
