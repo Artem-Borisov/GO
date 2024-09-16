@@ -112,14 +112,47 @@
     ;
 }
 
+.banner__button:hover {
+    border-radius: 10px;
+    width: 374px;
+    height: 80px;
+    background: #840aa3;
+}
+
+.banner__button:focus {
+    border-radius: 10px;
+    width: 374px;
+    height: 80px;
+    background: #840aa3;
+}
+
+.banner__button:active {
+    border-radius: 10px;
+    width: 374px;
+    height: 80px;
+    background: #640aa3;
+}
+
 .banner__slider {
     display: block;
     content: "";
-    background-image: url(../graphics/down.svg);
+    background-image: url(../graphics/down_norm.svg);
     width: 97px;
     height: 97px;
     align-self: center;
     z-index: 5;
     position: relative;
     bottom: 45px;
+}
+
+.banner__slider:hover {
+    background-image: url(../graphics/down_hover.svg);
+}
+
+.banner__slider:focus {
+    background-image: url(../graphics/down_focus.svg);
+}
+
+.banner__slider:active {
+    background-image: url(../graphics/down_active.svg);
 }

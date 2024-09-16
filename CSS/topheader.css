@@ -37,4 +37,30 @@
     color: #fff;
     border: 3px solid #cd06ff;
     border-radius: 10px;
+    background-color: #1b1a1b;
 }
+
+.topheader__call-button:hover {
+    border: 3px solid #6c0287;
+    border-radius: 10px;
+    width: 280px;
+    height: 55px;
+    background: #6c0287;
+}
+
+.topheader__call-button:focus {
+    border-radius: 10px;
+    width: 280px;
+    height: 55px;
+    background: #6c0287;
+}
+
+.topheader__call-button:active {
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 280px;
+    height: 55px;
+    background-color: #640aa3; /* Важен порядок!!! link visited hover focus active */
+}
+
+

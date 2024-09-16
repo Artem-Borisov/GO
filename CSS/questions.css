@@ -35,6 +35,19 @@
 .questions__question:nth-child(even):after {
     background-image: url("../img/open.svg");
 }
+
+.questions__question:nth-child(even):after:hover {
+    background-image: url(../graphics/open-hover.svg);
+}
+
+.questions__question:nth-child(even):after:focus {
+
+}
+
+.questions__question:nth-child(even):after:active {
+
+}
+
 .questions__question:nth-child(odd):after {
     background-image: url("../img/open-purple.svg");
 }

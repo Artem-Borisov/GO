@@ -50,11 +50,16 @@
     margin-bottom: 40px;
 }
 
-.halls__item{
+.halls__item {
     position: fixed;
     opacity: 0;
     pointer-events: none;
     
+}
+.halls__item:focus + .halls__item-label {   /* только так работает focus для input  */
+    border: 3px solid #fff;
+    border-radius: 8px;
+    background: #6c0287;
 }
 
 .halls__select {
@@ -75,7 +80,18 @@
     text-align: center;
     color: #000;
     cursor: pointer;
-    
+}
+
+.halls__item-label:hover {
+    border: 3px solid #640aa3;
+    border-radius: 8px;
+    background: #eadeed;
+}
+
+.halls__item-label:active {
+    border: 3px solid #640aa3;
+    border-radius: 8px;
+    background: #fff;  
 }
 
 .reservation__entertainment{
@@ -120,7 +136,10 @@
     font-weight: 400;
     font-size: 22px;
     color: #fff;
-    
+}
+
+.play-station__label:focus {
+    border: 1px solid #cd06ff;
 }
 
 .reservation__table-games{
@@ -147,6 +166,11 @@
     font-size: 22px;
     color: #fff;
 }
+
+.table-games__label:focus {
+    border: 1px solid #cd06ff;
+}
+
 .reservation__additionally{
     border: none;
     width: 300px;
@@ -247,6 +271,11 @@
     height: 52px;
 }
 
+.date-time__item_phone:focus {
+    border: 2px solid #cd06ff;
+    background: #fff;
+}
+
 .date-time__item_emale{
     width: 300px;
     height: 52px;
@@ -268,8 +297,21 @@
     margin-right: 38px;
 }
 
+.reservation__button:hover {
+    border: 3px solid #6c0287;
+    background: #eadeed;
+}
 
+.reservation__button:focus {
+    background: #eadeed;
+    border-radius: 10px;
+}
 
+.reservation__button:active {
+    border: 3px solid #6c0287;
+    border-radius: 10px;
+    background: #fff;
+}
 
 
 
