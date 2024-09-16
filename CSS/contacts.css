@@ -88,6 +88,18 @@
     display: block;
     position: absolute;
     left: -66px;
+    
+}
+.contacts__vk:hover {
+    filter: invert(3%) sepia(7%) saturate(1468%) hue-rotate(232deg) brightness(104%) contrast(86%);
+}
+
+.contacts__vk:focus {
+    filter: invert(4%) sepia(24%) saturate(330%) hue-rotate(253deg) brightness(97%) contrast(91%);
+}
+
+.contacts__vk:active {
+    filter: invert(81%) sepia(91%) saturate(6268%) hue-rotate(285deg) brightness(139%) contrast(110%);
 }
 
 .contacts__tg {
@@ -101,6 +113,18 @@
     left: 10px;
 }
 
+.contacts__tg:hover {
+    filter: invert(3%) sepia(7%) saturate(1468%) hue-rotate(232deg) brightness(104%) contrast(86%);
+}
+
+.contacts__tg:focus {
+    filter: invert(4%) sepia(24%) saturate(330%) hue-rotate(253deg) brightness(97%) contrast(91%);
+}
+
+.contacts__tg:active {
+    filter: invert(81%) sepia(91%) saturate(6268%) hue-rotate(285deg) brightness(139%) contrast(110%);
+}
+
 .contacts__pint {
     background-image: url(../graphics/pinterest.svg);
     background-position: center;
@@ -112,6 +136,18 @@
     left: 86px;
 }
 
+.contacts__pint:hover {
+    filter: invert(3%) sepia(7%) saturate(1468%) hue-rotate(232deg) brightness(104%) contrast(86%);
+}
+
+.contacts__pint:focus {
+    filter: invert(4%) sepia(24%) saturate(330%) hue-rotate(253deg) brightness(97%) contrast(91%);
+}
+
+.contacts__pint:active {
+    filter: invert(81%) sepia(91%) saturate(6268%) hue-rotate(285deg) brightness(139%) contrast(110%);
+}
+
 .contacts__stu {
     background-image: url(../graphics/stumbleupon.svg);
     background-position: center;
@@ -121,4 +157,16 @@
     display: block;
     position: absolute;
     left: 162px;
+}
+
+.contacts__stu:hover {
+    filter: invert(3%) sepia(7%) saturate(1468%) hue-rotate(232deg) brightness(104%) contrast(86%);
+}
+
+.contacts__stu:focus {
+    filter: invert(4%) sepia(24%) saturate(330%) hue-rotate(253deg) brightness(97%) contrast(91%);
+}
+
+.contacts__stu:active {
+    filter: invert(81%) sepia(91%) saturate(6268%) hue-rotate(285deg) brightness(139%) contrast(110%);
 }
