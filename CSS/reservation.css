@@ -80,12 +80,14 @@
     text-align: center;
     color: #000;
     cursor: pointer;
+    transition-duration: 0.4s;
 }
 
 .halls__item-label:hover {
     border: 3px solid #640aa3;
     border-radius: 8px;
     background: #eadeed;
+    
 }
 
 .halls__item-label:active {

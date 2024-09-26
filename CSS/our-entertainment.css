@@ -24,7 +24,28 @@
 .our-entertainment__item {
     width: 380px;
     height: 228px;
+    
 }
+
+.our-entertainment__item:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+/* один из вариантов выполнения (анимация сбрасывается после выполнения)
+.our-entertainment__item:hover {
+    animation-name: more-scale-img;
+    animation-duration: 0.5s;
+}
+
+@keyframes more-scale-img {
+    0% {
+        transform: scale(1.0);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}*/
 
 .our-entertainment__text {
     font-family: var(--font-family);
