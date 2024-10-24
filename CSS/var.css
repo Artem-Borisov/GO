@@ -1,0 +1,46 @@
+.topheader {
+    --main-color: #fff;
+    --accent-color: #cd06ff;
+    --hover-color: #6c0287;
+    --focus-color: #6c0287;
+    --active-color: #640aa3;
+}
+
+.banner {
+    --main-color: #fff;
+    --accent-color: #cd06ff;
+    --button-color: #6c0287; 
+    --hover-color: #840aa3;
+    --focus-color: #840aa3;
+    --active-color: #640aa3;
+}
+
+.our-entertainment__block {
+    --main-color: #fff;
+}
+
+.our-halls__block {
+    --main-color: #fff;
+}
+
+.reservation {
+    --background-color: #440f51;
+    --main-color: #fff;
+}
+
+.about-us {
+    --main-color: #fff;
+}
+
+.our-reviews {
+    --main-color: #fff;
+}
+
+.questions {
+    --first-color: #fff;
+    --second-color: #440f51;
+}
+
+.contacts {
+
+}

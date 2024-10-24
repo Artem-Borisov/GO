@@ -3,7 +3,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 140%;
-    color: #fff;
+    color: var(--main-color);
     margin-bottom: 30px;
 }
 
@@ -22,7 +22,7 @@
     line-height: 125%;
     text-transform: uppercase;
     text-align: center;
-    color: #fff;
+    color: var(--main-color);
     margin-bottom: 60px;
 }
 
@@ -45,7 +45,7 @@
     font-size: 44px;
     line-height: 114%;
     text-transform: uppercase;
-    color: #fff;
+    color: var(--main-color);
     position: relative;
     margin-left: 31px;
 }
@@ -59,7 +59,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 140%;
-    color: #fff;
+    color: var(--main-color);
     position: relative;
     margin: 0;
     margin-left: 221px;

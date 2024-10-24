@@ -9,7 +9,7 @@
     line-height: 125%;
     text-transform: uppercase;
     text-align: center;
-    color: #fff;
+    color: var(--main-color);
     width: 980px;
     margin: 0 auto;
     margin-bottom: 40px;
@@ -52,7 +52,7 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 140%;
-    color: #fff;
+    color: var(--main-color);
     padding-top: 166px;
     padding-left: 40px;
     width: 310px;
@@ -64,6 +64,7 @@
 
 .our-entertainment__item2 {
     background-image: url(../img/Rectangle\ 30.jpg);
+    margin-top: 70px;
 }   
 
 .our-entertainment__item3 {
@@ -76,6 +77,7 @@
 
 .our-entertainment__item5 {
     background-image: url(../img/Rectangle\ 33.jpg);
+    margin-top: 70px;
 }
 
 .our-entertainment__item6 {

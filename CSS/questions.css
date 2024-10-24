@@ -15,7 +15,7 @@
     flex-direction: column;
 }
 .questions__question {
-    background-color: #fff;
+    background-color: var(--first-color);
     color: #1c1a1a;
     font-weight: 700;
     font-size: 24px;
@@ -66,7 +66,7 @@
 }
 
 .questions__question:nth-child(even) {
-    background-color: #440f51;
+    background-color: var(--second-color);
     color: #fff;
 }
 

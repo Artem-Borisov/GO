@@ -3,7 +3,7 @@
 }
 
 .container_reservation {
-    background: #440f51;
+    background: var(--background-color);
 }
 .reservation__block h3 {
     font-weight: 700;
@@ -11,7 +11,7 @@
     line-height: 125%;
     text-transform: uppercase;
     text-align: center;
-    color: #fff;
+    color: var(--main-color);
     margin-bottom:  60px;
     padding-top: 80px;
 }
@@ -46,7 +46,7 @@
     font-size: 24px;
     line-height: 117%;
     text-align: center;
-    color: #fff;
+    color: var(--main-color);
     margin-bottom: 40px;
 }
 
@@ -71,7 +71,7 @@
     border-radius: 8px;
     width: 250px;
     height: 55px;
-    background: #fff;
+    background: var(--main-color);
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 30px;
@@ -93,7 +93,7 @@
 .halls__item-label:active {
     border: 3px solid #640aa3;
     border-radius: 8px;
-    background: #fff;  
+    background: var(--main-color);  
 }
 
 .reservation__entertainment{
@@ -109,7 +109,7 @@
     font-size: 24px;
     line-height: 117%;
     text-align: center;
-    color: #fff;
+    color: var(--main-color);
     margin-bottom: 40px;
 }
 
@@ -124,7 +124,7 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 117%;
-    color: #fff;
+    color: var(--main-color);
     margin-bottom: 20px;
 }
 
@@ -137,7 +137,7 @@
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 22px;
-    color: #fff;
+    color: var(--main-color);
 }
 
 .play-station__label:focus {
@@ -154,7 +154,7 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 117%;
-    color: #fff;
+    color: var(--main-color);
     margin-bottom: 20px;
 }
 
@@ -166,7 +166,7 @@
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 22px;
-    color: #fff;
+    color: var(--main-color);
 }
 
 .table-games__label:focus {
@@ -183,7 +183,7 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 117%;
-    color: #fff;
+    color: var(--main-color);
     margin-bottom: 20px;
 }
 
@@ -196,7 +196,7 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 117%;
-    color: #fff;
+    color: var(--main-color);
 }
 .reservation__date-time{
     border: none;
@@ -211,7 +211,7 @@
     font-size: 24px;
     line-height: 117%;
     text-align: center;
-    color: #fff;
+    color: var(--main-color);
     margin-bottom: 40px;
 }
 

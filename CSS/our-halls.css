@@ -1,12 +1,10 @@
-
-
 .our-halls__block h3 {
     font-weight: 700;
     font-size: 40px;
     line-height: 125%;
     text-transform: uppercase;
     text-align: center;
-    color: #fff;
+    color: var(--main-color);
     margin-bottom: 60px;
 }
 
@@ -38,7 +36,7 @@
     line-height: 114%;
     text-transform: uppercase;
     text-align: center;
-    color: #fff;
+    color: var(--main-color);
     text-decoration: none;
     display: block;
     margin: auto;

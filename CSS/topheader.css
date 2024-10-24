@@ -19,7 +19,7 @@
     font-size: 22px;
     line-height: 227%;
     text-transform: uppercase;
-    color: #fff;
+    color: var(--main-color);
 }
 
 .menu__list-item {
@@ -34,25 +34,25 @@
     font-size: 22px;
     line-height: 136%;
     text-transform: uppercase;
-    color: #fff;
-    border: 3px solid #cd06ff;
+    color: var(--main-color);
+    border: 3px solid var(--accent-color);
     border-radius: 10px;
     background-color: #1b1a1b;
 }
 
 .topheader__call-button:hover {
-    border: 3px solid #6c0287;
+    border: 3px solid var(--hover-color);
     border-radius: 10px;
     width: 280px;
     height: 55px;
-    background: #6c0287;
+    background: var(--hover-color);
 }
 
 .topheader__call-button:focus {
     border-radius: 10px;
     width: 280px;
     height: 55px;
-    background: #6c0287;
+    background: var(--focus-color);
 }
 
 .topheader__call-button:active {
@@ -60,7 +60,7 @@
     border-radius: 10px;
     width: 280px;
     height: 55px;
-    background-color: #640aa3; /* Важен порядок!!! link visited hover focus active */
+    background-color: var(--active-color); /* Важен порядок!!! link visited hover focus active */
 }
 
 
